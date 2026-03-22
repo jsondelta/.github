@@ -1,6 +1,7 @@
 # jsondelta
 
-**This ecosystem is archived.** The thesis - that Zig compiled to WebAssembly could deliver the fastest JSON diffing in JavaScript - was disproven. The WASM serialization boundary (JSON.stringify -> memory copy -> Zig parse -> compute -> Zig serialize -> memory copy -> JSON.parse) dominates actual computation time, making the WASM engine 10-27x slower than pure JS alternatives. The JS fallback is competitive but offers no advantage over existing libraries like fast-json-patch. The only viable path to "fastest" would be a native N-API addon, which is a different project entirely.
+> [!NOTE]
+> This ecosystem is archived. The WASM serialization boundary (JSON.stringify -> memory copy -> Zig parse -> compute -> serialize -> copy -> JSON.parse) dominates computation time, making the engine slower than pure JS alternatives. The JS fallback is competitive but offers no advantage over existing libraries like fast-json-patch.
 
 ## Packages
 
