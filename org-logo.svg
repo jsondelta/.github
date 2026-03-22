@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#111"/>
+  <!-- left bracket -->
+  <rect x="108" y="156" width="14" height="200" rx="4" fill="#f4a261"/>
+  <rect x="108" y="156" width="36" height="14" rx="4" fill="#f4a261"/>
+  <rect x="108" y="342" width="36" height="14" rx="4" fill="#f4a261"/>
+  <!-- right bracket -->
+  <rect x="390" y="156" width="14" height="200" rx="4" fill="#f4a261"/>
+  <rect x="368" y="156" width="36" height="14" rx="4" fill="#f4a261"/>
+  <rect x="368" y="342" width="36" height="14" rx="4" fill="#f4a261"/>
+  <!-- plus (added) - center at y=192 -->
+  <rect x="220" y="185" width="72" height="14" rx="7" fill="#7209b5"/>
+  <rect x="249" y="156" width="14" height="72" rx="7" fill="#7209b5"/>
+  <!-- dot (change) - center at y=258 -->
+  <circle cx="256" cy="258" r="12" fill="#4cc9f0"/>
+  <!-- minus (removed) - center at y=322 -->
+  <rect x="220" y="315" width="72" height="14" rx="7" fill="#f72585"/>
+</svg>
